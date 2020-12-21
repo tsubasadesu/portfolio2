@@ -1,0 +1,813 @@
+html, body, div, span, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ abbr, address, cite, code,
+ del, dfn, em, img, ins, kbd, q, samp,
+ small, strong, sub, sup, var,
+ b, i,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, figcaption, figure,
+ footer, header, hgroup, menu, nav, section, summary,
+ time, mark, audio, video {
+     margin:0;
+     padding:0;
+     border:0;
+     outline:0;
+     font-size:100%;
+     vertical-align:baseline;
+     background:transparent;
+ }
+ body {
+     line-height:1;
+ }
+ article,aside,details,figcaption,figure,
+ footer,header,hgroup,menu,nav,section {
+     display:block;
+ }
+ nav ul {
+     list-style:none;
+ }
+ blockquote, q {
+     quotes:none;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+     content:'';
+     content:none;
+ }
+ a {
+     margin:0;
+     padding:0;
+     font-size:100%;
+     vertical-align:baseline;
+     background:transparent;
+ }
+ /* change colours to suit your needs */
+ ins {
+     background-color:#ff9;
+     color:#000;
+     text-decoration:none;
+ }
+ /* change colours to suit your needs */
+ mark {
+     background-color:#ff9;
+     color:#000;
+     font-style:italic;
+     font-weight:bold;
+ }
+ del {
+     text-decoration: line-through;
+ }
+ abbr[title], dfn[title] {
+     border-bottom:1px dotted;
+     cursor:help;
+ }
+ table {
+     border-collapse:collapse;
+     border-spacing:0;
+ }
+ /* change border colour to suit your needs */
+ hr {
+     display:block;
+     height:1px;
+     border:0;
+     border-top:1px solid #cccccc;
+     margin:1em 0;
+     padding:0;
+ }
+ input, select {
+     vertical-align:middle;
+ }
+ 
+ * {
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+body header {
+  height: 60px;
+  background: #032550;
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+
+body header .header-title {
+  display: inline-block;
+  margin: 10px 0 0 10px;
+}
+
+body header .header-title h1 {
+  font-size: 30px;
+}
+
+body header .header-title p {
+  font-size: 12px;
+}
+
+body header .header-menu {
+  float: right;
+  margin-top: 21px;
+}
+
+body header .header-menu ul li {
+  display: inline-block;
+}
+
+body header .header-menu ul li a {
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+body header .header-menu ul li .contact {
+  background: #6985f7;
+  border-radius: 2px;
+  color: white;
+  padding: 10px 15px;
+  margin-right: -0px;
+  margin-right: 5px;
+}
+
+body header .header-menu ul li a:hover {
+  opacity: 0.8;
+}
+
+body .main {
+  background-image: url(https://github.com/tsubasadesu/portfolio2/blob/main/computer-2982270_1920.jpg?raw=true);
+  height: 900px;
+  background-position: center center;
+  background-size: cover;
+}
+
+body .main .main-area {
+  background: rgba(18, 14, 51, 0.5);
+  height: 900px;
+}
+
+body .main .main-area h2 {
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 25%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body .wrap {
+  background: white;
+  padding-bottom: 100px;
+}
+
+body .wrap h3 {
+  font-size: 80px;
+  text-align: center;
+  padding: 100px 0  50px 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #141313;
+}
+
+body .wrap .wrap-img {
+  margin-left: 5%;
+}
+
+body .wrap .wrap-img img {
+  border-radius: 3px;
+  opacity: 0.4;
+  width: 500px;
+  height: 300px;
+}
+
+body .wrap .wrap-txt {
+  position: relative;
+}
+
+body .wrap .wrap-txt p {
+  position: absolute;
+  bottom: 70px;
+  left: 36%;
+  line-height: 2;
+  color: #111010;
+  z-index: 5;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+}
+
+body .content {
+  background: white;
+  color: #111010;
+  padding: 100px 0 100px 0;
+}
+
+body .content h3 {
+  font-size: 80px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 50px;
+}
+
+body .content .content-txt {
+  position: relative;
+  margin-left: 5%;
+}
+
+body .content .content-txt p {
+  position: absolute;
+  z-index: 5;
+  line-height: 2;
+  top: 30px;
+  font-size: 17px;
+  letter-spacing: 1.5px;
+}
+
+body .content .content-img {
+  margin-left: 61%;
+}
+
+body .content .content-img img {
+  opacity: 0.4;
+  width: 500px;
+  height: 300px;
+  border-radius: 3px;
+}
+
+body .center {
+  background-image: url(../images/computer.jpg);
+  height: 1200px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+body .center a {
+  color: #817c7c;
+  text-decoration: none;
+}
+
+body .center .area {
+  background: rgba(18, 14, 51, 0.5);
+  height: 1200px;
+}
+
+body .center .area h3 {
+  font-size: 80px;
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body .center .area .center-txt p {
+  text-align: center;
+}
+
+body .center .area .center-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 50px 0 0 30px;
+}
+
+body .center .area .center-area .box {
+  width: 280px;
+  height: 350px;
+  background: #f3f2f2;
+  text-align: center;
+  border: 2px solid #c4c0c0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border-bottom: 10px solid #057c85;
+}
+
+body .center .area .center-area .box p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+body .center .area .center-area .t {
+  border-bottom: 10px solid #01073b;
+}
+
+body .contact {
+  height: 600px;
+  text-align: center;
+  background: white;
+  padding-bottom: 200px;
+}
+
+body .contact h3 {
+  font-size: 80px;
+  text-align: center;
+  padding-top: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 30px;
+}
+
+body .contact .contact-form .text {
+  width: 300px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+body .contact .contact-form textarea {
+  width: 500px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+body .contact .contact-form .submit {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  background: black;
+  color: white;
+}
+
+body footer {
+  height: 40px;
+  text-align: center;
+  color: white;
+  background: black;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    max-width: 100%;
+  }
+  body header {
+    max-width: 100%;
+  }
+  body header .header-title h1 {
+    font-size: 30px;
+  }
+  body header .header-title p {
+    font-size: 12px;
+  }
+  body header .header-menu {
+    float: right;
+  }
+  body header .header-menu ul li {
+    display: inline-block;
+  }
+  body header .header-menu ul li a {
+    font-size: 14px;
+    margin-right: 20px;
+  }
+  body header .header-menu ul li .contact {
+    background: #6985f7;
+    color: #575555;
+  }
+  body header .header-menu ul li a:hover {
+    opacity: 0.8;
+  }
+  body .main {
+    background-image: url(../images/clay.jpg);
+    height: 900px;
+    background-position: center center;
+    background-size: cover;
+  }
+  body .main .main-area {
+    background: rgba(18, 14, 51, 0.5);
+    height: 900px;
+  }
+  body .main .main-area h2 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 75%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  body .wrap {
+    background: white;
+    padding-bottom: 100px;
+    height: 100%;
+  }
+  body .wrap h3 {
+    font-size: 60px;
+    text-align: center;
+    padding: 100px 0  50px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #141313;
+  }
+  body .wrap .wrap-img {
+    margin-left: 0%;
+  }
+  body .wrap .wrap-img img {
+    border-radius: 3px;
+    opacity: 0.4;
+    width: 500px;
+    height: 300px;
+    max-width: 100%;
+  }
+  body .wrap .wrap-txt {
+    position: relative;
+  }
+  body .wrap .wrap-txt p {
+    position: static;
+    bottom: 70px;
+    left: 1%;
+    line-height: 2;
+    color: #111010;
+    z-index: 5;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    margin-left: 2%;
+    margin-top: 1%;
+  }
+  body .content {
+    background: white;
+    color: #111010;
+    padding: 0px 0 100px 0;
+  }
+  body .content h3 {
+    font-size: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+  }
+  body .content .content-txt {
+    position: relative;
+    margin-left: 2%;
+  }
+  body .content .content-txt p {
+    position: absolute;
+    z-index: 5;
+    line-height: 2;
+    top: 30px;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    margin-bottom: 3%;
+    position: static;
+  }
+  body .content .content-img {
+    margin-left: 0%;
+  }
+  body .content .content-img img {
+    opacity: 0.4;
+    width: 500px;
+    height: 300px;
+    border-radius: 3px;
+    max-width: 100%;
+  }
+  body .center {
+    background-image: url(../images/computer.jpg);
+    height: 1200px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100%;
+    max-width: 100%;
+  }
+  body .center a {
+    color: #817c7c;
+    text-decoration: none;
+    width: 140px;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-right: 3%;
+  }
+  body .center .area {
+    background: rgba(18, 14, 51, 0.5);
+    height: 1200px;
+  }
+  body .center .area h3 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  body .center .area .center-txt p {
+    text-align: center;
+  }
+  body .center .area .center-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 50px 0 0 3%;
+  }
+  body .center .area .center-area .box {
+    width: 140px;
+    height: 350px;
+    background: #f3f2f2;
+    text-align: center;
+    border: 2px solid #c4c0c0;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-bottom: 10px solid #057c85;
+    height: 250px;
+  }
+  body .center .area .center-area .box p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  body .center .area .center-area .box img {
+    width: 50%;
+    height: 70%;
+  }
+  body .center .area .center-area .t {
+    border-bottom: 10px solid #01073b;
+  }
+  body .center .area .center-area .n img {
+    height: 50%;
+  }
+  body .contact {
+    height: 600px;
+    text-align: center;
+    padding-bottom: 200px;
+  }
+  body .contact h3 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+  }
+  body .contact .contact-form .text {
+    width: 80%;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  body .contact .contact-form textarea {
+    width: 80%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  body .contact .contact-form .submit {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    background: black;
+    color: white;
+  }
+  body footer {
+    height: 40px;
+    text-align: center;
+    color: white;
+    background: black;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 1020px) and (min-width: 768px) {
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+  body header {
+    height: 60px;
+    background: #032550;
+    color: white;
+    position: fixed;
+    width: 100%;
+  }
+  body header .header-title {
+    display: inline-block;
+    margin: 10px 0 0 10px;
+  }
+  body header .header-title h1 {
+    font-size: 30px;
+  }
+  body header .header-title p {
+    font-size: 12px;
+  }
+  body header .header-menu {
+    float: right;
+    margin-top: 21px;
+  }
+  body header .header-menu ul li {
+    display: inline-block;
+  }
+  body header .header-menu ul li a {
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+  }
+  body header .header-menu ul li .contact {
+    background: #6985f7;
+    border-radius: 2px;
+    color: white;
+    padding: 10px 15px;
+    margin-right: -0px;
+    margin-right: 5px;
+  }
+  body header .header-menu ul li a:hover {
+    opacity: 0.8;
+  }
+  body .main {
+    /* background-image: url(../images/clay.jpg); */
+    height: 900px;
+    background-position: center center;
+    background-size: cover;
+  }
+  body .main .main-area {
+    background: rgba(18, 14, 51, 0.5);
+    height: 900px;
+  }
+  body .main .main-area h2 {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 25%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  body .wrap {
+    background: white;
+    padding-bottom: 100px;
+    max-width: 100%;
+  }
+  body .wrap h3 {
+    font-size: 80px;
+    text-align: center;
+    padding: 100px 0  50px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #141313;
+  }
+  body .wrap .wrap-img {
+    margin-left: 5%;
+  }
+  body .wrap .wrap-img img {
+    border-radius: 3px;
+    opacity: 0.4;
+    max-width: 100%;
+    height: 300px;
+  }
+  body .wrap .wrap-txt {
+    position: relative;
+  }
+  body .wrap .wrap-txt p {
+    position: absolute;
+    bottom: 70px;
+    left: 36%;
+    line-height: 2;
+    color: #111010;
+    z-index: 5;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+  }
+  body .content {
+    background: white;
+    color: #111010;
+    padding: 100px 0 100px 0;
+    max-width: 100%;
+  }
+  body .content h3 {
+    font-size: 80px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+  }
+  body .content .content-txt {
+    position: relative;
+    margin-left: 5%;
+  }
+  body .content .content-txt p {
+    position: absolute;
+    z-index: 5;
+    line-height: 2;
+    top: 30px;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+  }
+  body .content .content-img {
+    margin-left: 61%;
+  }
+  body .content .content-img img {
+    opacity: 0.4;
+    max-width: 100%;
+    height: 300px;
+    border-radius: 3px;
+  }
+  body .center {
+    background-image: url(../images/computer.jpg);
+    height: 1200px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    max-height: 100%;
+  }
+  body .center a {
+    color: #817c7c;
+    text-decoration: none;
+  }
+  body .center .area {
+    background: rgba(18, 14, 51, 0.5);
+    height: 1200px;
+  }
+  body .center .area h3 {
+    font-size: 80px;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  body .center .area .center-txt p {
+    text-align: center;
+  }
+  body .center .area .center-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 50px 0 0 30px;
+  }
+  body .center .area .center-area .box {
+    width: 200px;
+    height: 350px;
+    background: #f3f2f2;
+    text-align: center;
+    border: 2px solid #c4c0c0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-bottom: 10px solid #057c85;
+  }
+  body .center .area .center-area .box p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  body .center .area .center-area .t {
+    border-bottom: 10px solid #01073b;
+  }
+  body .contact {
+    height: 600px;
+    text-align: center;
+    background: white;
+    padding-bottom: 200px;
+  }
+  body .contact h3 {
+    font-size: 80px;
+    text-align: center;
+    padding-top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+  }
+  body .contact .contact-form .text {
+    width: 300px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  body .contact .contact-form textarea {
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  body .contact .contact-form .submit {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    background: black;
+    color: white;
+  }
+  body footer {
+    height: 40px;
+    text-align: center;
+    color: white;
+    background: black;
+    padding-top: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
+ 
